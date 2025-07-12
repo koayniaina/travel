@@ -1,0 +1,28 @@
+.HeroBlog{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(230px , 1fr));
+    padding: 1rem auto;
+    margin: 1rem ;
+    gap: 1rem;
+
+}
+
+.HeroBlog img{
+    width: 100%;
+}
+
+.title{
+    text-align: center;
+    margin: 1rem 0 1rem;
+    font-size: 2rem;
+}
+
+.titles{
+    text-align: center;
+    color: rgb(150, 150, 150);
+}
+
+.HeroBlog button{
+    background-color: rgb(10, 92, 245);
+    color: whitesmoke;
+}

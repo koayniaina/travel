@@ -1,0 +1,77 @@
+.heroContact {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem;
+}
+
+.fauxText {
+ background: linear-gradient(
+      190deg,
+      rgba(1, 2, 3, 0.904),
+      rgba(21, 88, 151, 0.945)
+    ),
+    url("../../public/imgs/contact.jpeg");
+  background-position: center;
+  height: 40vh;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: whitesmoke;
+}
+
+.fauxText p{
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+   
+}
+
+.contact h5{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.fauxText h2{
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+
+.heroContact p{
+    margin: 12px 0;
+}
+
+.addres p{
+    margin: 12px 0;
+}
+
+.contact button {
+  background-color: rgb(41, 107, 228);
+  padding: .4rem 1rem;
+  border-radius: 4px;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.inputs {
+  border: 1px solid black;
+  border-radius: 4px;
+  margin: 0.4rem 0;
+}
+
+.inputs input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.inputs textarea {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}

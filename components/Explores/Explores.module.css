@@ -1,0 +1,112 @@
+.heroExplore {
+  position: relative;
+  background-image: url("../../public/imgs/hero.jpg");
+  background-position: end;
+  background-size: cover;
+  height: 100vh;
+}
+
+.HeroSider {
+  background-color: rgba(236, 236, 236, 0.514);
+  color: rgba(255, 255, 255, 0.897);
+  width: 100%;
+  max-width: 300px;
+  height: 100vh;
+  padding: 2rem;
+}
+
+.heroExplore h2 {
+  font-size: 2rem;
+}
+
+.heroExplore span {
+   color: rgb(10, 92, 245);
+}
+
+.heroExplore p {
+  font-size: 0.7rem;
+}
+
+.heroExplore button {
+  background-color:  rgb(10, 92, 245);
+  padding: 0.3rem 1rem;
+  margin: 1rem 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.mygrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  align-items: center;
+  /* gap: 1rem; */
+  /* background-color: rgb(209, 209, 209); */
+  /* padding: 1rem; */
+}
+
+.mygrid h5 {
+  font-weight: bold;
+}
+
+/* .mygrid button {
+  margin: 0.5rem 0;
+  border-radius: 4px;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  cursor: pointer;
+  color: rgb(21, 126, 212);
+} */
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  /* background-color: blue; */
+}
+
+.icons span {
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.textFauxs {
+  background-color: rgba(65, 65, 65, 0.822);
+  padding: 1rem;
+  color: whitesmoke;
+}
+
+.textFauxs button {
+  margin: 0.5rem 0;
+  border-radius: 4px;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+}
+
+.textFaux {
+  background-color: rgba(15, 156, 221, 0.822);
+  padding: 1rem;
+  color: whitesmoke;
+}
+
+.textFaux button {
+  margin: 0.5rem 0;
+  border-radius: 4px;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+}
+
+.chiffres {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

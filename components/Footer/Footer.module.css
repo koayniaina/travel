@@ -1,0 +1,38 @@
+.footer p{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    gap: .4rem;
+}
+.footer {
+  background: linear-gradient(
+      190deg,
+      rgba(1, 2, 3, 0.904),
+      rgba(21, 88, 151, 0.945)
+    ),
+    url("../../public/imgs/ecology-motif-vector-illustration-for-footer-design-sdgs-nature-conservation-2W93P85.jpg");
+  background-position: center;
+  /* height: 100vh; */
+  position: relative;
+  text-align: center;
+  color: whitesmoke;
+  padding: 2rem;
+}
+
+.footer p span{
+    color: rgb(253, 253, 253);
+}
+
+.footer h2{
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    /* color: rgba(44, 130, 211, 0.945); */
+    font-weight: bold;
+}
+
+.icons span{
+   margin-right:  1.1rem;
+   cursor: pointer;
+}

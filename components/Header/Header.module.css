@@ -1,0 +1,125 @@
+.heroSide {
+  background: linear-gradient(
+      190deg,
+      rgba(1, 2, 3, 0.904),
+      rgba(21, 88, 151, 0.945)
+    ),
+    url("../../public/imgs/heros.jpg");
+  background-position: center;
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.search {
+  color: rgb(10, 92, 245);
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.header {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  display: flex;
+  z-index: 3;
+  padding: 1rem 1.2rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo p {
+  text-transform: uppercase;
+  color: rgb(10, 92, 245);
+  font-weight: bold;
+}
+
+.navbar {
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar li {
+  cursor: pointer;
+}
+
+.heroSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  margin: 0 1rem;
+  color: whitesmoke;
+}
+
+.heroSection h1 {
+  font-size: 1.7rem;
+  text-transform: capitalize;
+}
+
+.heroSection p {
+  text-transform: capitalize;
+  font-size: 0.8rem;
+}
+
+.heroSection button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  margin: 1rem 0 1rem;
+  background-color: rgb(42, 116, 255);
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .hamburger {
+    display: block;
+    position: relative;
+    z-index: 4;
+    color: rgb(10, 92, 245);
+  }
+
+  .navbar {
+    z-index: 3;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    transition: 0.4s;
+    left: -100%;
+    min-height: 100vh;
+    color: rgb(48, 48, 48);
+    font-size: 1.3rem;
+    padding: 2rem 1rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar.active {
+    left: 0;
+  }
+
+  .logo {
+    position: relative;
+    z-index: 4;
+  }
+
+  .search {
+    position: relative;
+    z-index: 4;
+  }
+}
