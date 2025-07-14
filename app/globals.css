@@ -1,9 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+NSW+ACT+Hand+Pre:wght@400..700&family=Matangi:wght@300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=My+Soul&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+NSW+ACT+Hand+Pre:wght@400..700&family=Matangi:wght@300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=My+Soul&display=swap");
 @import "tailwindcss";
 
-body {
+*{
+  scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+
+body{
   text-decoration: none;
   list-style-type: none;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
 .logo p {

@@ -19,17 +19,20 @@
 .search {
   color: rgb(10, 92, 245);
   font-weight: bold;
+  position: sticky;
+  top: 0;
   cursor: pointer;
   font-size: 1.2rem;
 }
 
 .header {
-  position: sticky;
+  position: fixed;
   width: 100%;
   top: 0;
+  background-color: aliceblue;
   display: flex;
   z-index: 3;
-  padding: 1rem 1.2rem;
+  padding: .6rem 1.2rem;
   align-items: center;
   justify-content: space-between;
 }
